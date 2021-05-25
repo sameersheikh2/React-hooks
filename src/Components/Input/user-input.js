@@ -26,7 +26,7 @@ const [Width, setWidth] = useState(window.innerWidth);
   }
 
   return (
-      <div class="card">
+      <div>
           <input
               type="text"
               value={Name}
