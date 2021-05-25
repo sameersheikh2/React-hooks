@@ -1,11 +1,8 @@
 import React, { useState , useEffect} from "react";
 
-//import { ThemeContext, LocaleContext} from './components'
-
 function Name() {
   const [Name, setName] = useState("");
   const [Number, setNumber] = useState("");
-  //const theme = useContext(ThemeContext);
 
   useEffect(() =>{
       document.title= Name + '' + Number;
