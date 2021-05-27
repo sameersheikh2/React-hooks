@@ -1,0 +1,15 @@
+Update the project structure as
+
+	src
+	|- app.js
+	|- route-page
+	|- abramov_react_today_and_tomorrow
+	|- ryan_florence_90_percent_cleaner_react_with_hooks
+	|- michael_jackson_ryan_florence_fun_with_react_hooks
+	|- ben_awad_react_hooks_tutorial
+
+Use react-router for creating route-page, which links to all the below folder structures.
+Each exercise could have index.js, which exposes the other components of the exercise.
+
+Reference:
+* https://reactrouter.com/	
