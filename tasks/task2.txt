@@ -1,0 +1,6 @@
+Advanced Counter
+
+- Separate counter display and counter operations.
+- Add input box between increment and decrement.
+- The input box should take numbers as input.
+- The input should be the value by which counter increment and decrement should happen.
