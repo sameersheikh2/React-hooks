@@ -18,6 +18,9 @@ function Indx() {
         <Link to="/Tutorial4">
           <li>Tutorial4</li>
         </Link>
+        <Link to="/task2">
+          <li>Task2 Advance Counter</li>
+        </Link>
       </ul>
     </nav>
   );
