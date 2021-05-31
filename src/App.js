@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Router>
         <Indx />
-        <Route path="/Tutorial1" component={Tutorial2} />
+        <Route path="/Tutorial1" component={Tutorial1} />
         <Route path="/Tutorial2" component={Tutorial2} />
         <Route path="/Tutorial3" component={Tutorial3} />
         <Route path="/Tutorial4" component={Tutorial4} />
