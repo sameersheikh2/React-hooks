@@ -17,7 +17,7 @@ const Counter = () => {
       <button
         value={Addition}
         onClick={(e) => {
-          setAddition(num + e.target.value);
+          setAddition(num + Addition);
         }}
       >
         Add
