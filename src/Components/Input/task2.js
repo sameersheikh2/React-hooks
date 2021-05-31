@@ -2,11 +2,11 @@ import React, { useState } from "react";
 
 const Counter = () => {
   const [num, setNum] = useState("6");
-  const [inputNum, setInputNum] = useState("");
+  const [Addition, setAddition] = useState("");
   return (
     <div>
       <h1>Counter</h1>
-      <h2>Result={inputNum}</h2>
+      <h2>Result={Addition}</h2>
       <input
         type="number"
         value={num}
@@ -15,9 +15,9 @@ const Counter = () => {
         }}
       />
       <button
-        value={inputNum}
+        value={Addition}
         onClick={(e) => {
-          setInputNum(num);
+          setAddition(num);
         }}
       >
         Add
