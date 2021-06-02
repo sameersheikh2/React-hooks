@@ -6,7 +6,7 @@ const Counter = () => {
   return (
     <div>
       <h1>Counter</h1>
-      <h2>Result={Addition}</h2>
+      <h2>Result={Addition + num}</h2>
       <input
         type="number"
         value={num}
