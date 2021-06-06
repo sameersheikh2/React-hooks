@@ -15,8 +15,7 @@ const Counter = () => {
         }}
       />
       <button
-        value={counter}
-        onClick={(e) => {
+        onClick={() => {
           setCounter(counter + num);
         }}
       >
