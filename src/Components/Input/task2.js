@@ -7,6 +7,13 @@ const Counter = () => {
   return (
     <div>
       <h1>Counter: {counter}</h1>
+      <button
+        onClick={() => {
+          setCounter(counter + num);
+        }}
+      >
+        +
+      </button>
       <input
         type="number"
         value={num}
@@ -16,10 +23,10 @@ const Counter = () => {
       />
       <button
         onClick={() => {
-          setCounter(counter + num);
+          setCounter(counter - num);
         }}
       >
-        Add
+        -
       </button>
     </div>
   );
