@@ -5,7 +5,7 @@ function ShowName() {
   return (
     <div>
       <h1>Hello </h1>
-      <Link to="/Task3">Previous page</Link>
+      <Link to="/Task3">Go back</Link>
     </div>
   );
 }
