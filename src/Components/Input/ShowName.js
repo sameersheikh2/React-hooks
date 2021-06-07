@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-//import Name from './task3'
 
 function ShowName() {
   return (
