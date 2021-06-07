@@ -21,6 +21,9 @@ function Indx() {
         <Link to="/task2">
           <li>Task2 Advance Counter</li>
         </Link>
+        <Link to="/task3">
+          <li>Task3</li>
+        </Link>
       </ul>
     </nav>
   );
