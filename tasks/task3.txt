@@ -1,0 +1,3 @@
+- Create a name input box, which accepts only characters(a-z or A-Z)
+- a button with submit, when clicked navigates to another page
+- the page should display the name entered in input box, and a link to go to the name input page
