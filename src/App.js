@@ -8,7 +8,6 @@ import Tutorial2 from "./Components/Routers/Tutorial2";
 import Tutorial3 from "./Components/Routers/Tutorial3";
 import Tutorial4 from "./Components/Routers/Tutorial4";
 import Name from "./Components/Input/task3";
-import ShowName from "./Components/Input/ShowName";
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
         <Route path="/Tutorial4" component={Tutorial4} />
         <Route path="/task2" component={Counter} />
         <Route path="/task3" component={Name} />
-        <Route path="/Name" component={ShowName} />
       </Router>
     </div>
   );

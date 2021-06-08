@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import ShowName from "./ShowName";
 
 function Name() {
@@ -15,7 +15,15 @@ function Name() {
           setName(e.target.value);
         }}
       />
-      <button onClick={<ShowName />}>Submit</button>
+      <button
+        onClick={() => {
+          <div>
+            <ShowName name={Fname} />
+          </div>;
+        }}
+      >
+        Submit
+      </button>
     </form>
   );
 }
